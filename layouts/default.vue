@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-navbar toggleable="lg" type="dark" variant="dark">
-      <b-navbar-brand href="/">D2D</b-navbar-brand>
+      <b-navbar-brand to="/">D2D</b-navbar-brand>
       <b-navbar-toggle target="navbar-toggle-collapse">
         <template #default="{ expanded }">
           <b-icon v-if="expanded" icon="chevron-bar-up"></b-icon>
