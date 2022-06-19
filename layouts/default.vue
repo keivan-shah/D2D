@@ -11,8 +11,7 @@
 
       <b-collapse id="navbar-toggle-collapse" is-nav>
         <b-navbar-nav class="mr-auto">
-          <b-nav-item to="/host" exact-path>Host</b-nav-item>
-          <b-nav-item to="/client" exact-path>Client</b-nav-item>
+          <b-nav-item to="/demo" exact-path>Demo</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>

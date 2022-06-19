@@ -18,7 +18,10 @@ export default {
       },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', to: 'favicon.ico' },
+      { rel: 'manifest', to: 'site.webmanifest' },
+    ],
     script: [{ src: 'https://unpkg.com/peerjs@1.3.2/dist/peerjs.min.js' }],
   },
 
