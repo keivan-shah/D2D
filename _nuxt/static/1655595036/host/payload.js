@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/host", (function(a){return {data:[{peer:a,lastPeerId:a,conn:a,messages:[],sendMsg:""}],fetch:{},mutations:void 0}}(null)));
