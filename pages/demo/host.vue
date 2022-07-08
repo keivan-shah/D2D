@@ -124,6 +124,7 @@ function createPeer(ctx) {
 }
 
 export default {
+  transition: 'page-slide',
   asyncData() {
     return {
       peer: null,

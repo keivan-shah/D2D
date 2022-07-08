@@ -19,14 +19,14 @@ export default {
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', to: 'favicon.ico' },
-      { rel: 'manifest', to: 'site.webmanifest' },
+      { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' },
+      { rel: 'manifest', href: 'site.webmanifest' },
     ],
     script: [{ src: 'https://unpkg.com/peerjs@1.3.2/dist/peerjs.min.js' }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
+  css: ['assets/css/main', 'assets/css/animations'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
